@@ -20,10 +20,22 @@ import requests,urllib,json
 #cl.log("Auth Token : " + str(cl.authToken))
 #cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
-#Khusus Lpgin Token
+#Khusus Login Token
 cl = LINE('YOUR_TOKEN')
 cl.log("Auth Token : " + str(cl.authToken))
 cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
+
+ki = LINE('YOUR_TOKEN')
+ki.log("Auth Token : " + str(cl.authToken))
+ki.log("Timeline Token : " + str(cl.tl.channelAccessToken))
+
+kk = LINE('YOUR_TOKEN')
+kk.log("Auth Token : " + str(cl.authToken))
+kk.log("Timeline Token : " + str(cl.tl.channelAccessToken))
+
+kc = LINE('YOUR_TOKEN')
+kc.log("Auth Token : " + str(cl.authToken))
+kc.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
 
 
@@ -31,54 +43,59 @@ startBot = time.time()
 elapsed_time = format_timespan(time.time()-startBot)
 
 
-helpMessage ="""
-► Command Public Bot ►
-► Id
-► Mid
-
-► Command in the groups By Eva ►
-► Tutup qr
-► Buka qr
-► Invite 「Mid」
-► Invite 「Mid」
-► Ginfo
-► Cancel
-► White 「target」
-► Restart
-► Guest On/Off
-► QrOn/Off
-► closeqr on
-► Lurking
-► Bot Out
-► Kill
-► Group bc 「Kata」
-► Contact bc「Kata」
-► List grup
-► Speed
-► Runtime
-
-◇ Command kicker only Owner ◇
-◇ Salken Ya
-◇ Bunuh「@」
-◇ Kick「Mid」
-◇ All join
-◇ Bye all
-◇ Kill ban
-◇ Ban 「@」
-◇ Unban「@」
-◇ Ban 「Contact」
-◇ Unban 「Contact」
-◇ Banlist
-◇ Clear ban
-◇ Tes
-◇ Clear
+helpMessage ="""╠══[Command Public]
+╠[Id]
+╠[Mid]
+╠═══════════════════●
+╠[Command in the groups]
+╠═══════════════════●
+╠[Tutup qr]
+╠[Buka qr]
+╠[Invite 「Mid」]
+╠[Invite 「Mid」]
+╠[Ginfo]
+╠[Cancel]
+╠[White 「target」]
+╠[Restart]
+╠[Guest On/Off]
+╠[QrOn/Off]
+╠[closeqr on]
+╠[Lurking]
+╠[Bot Out]
+╠[Kill]
+╠[Group bc 「Kata」]
+╠[Contact bc「Kata」]
+╠[List grup]
+╠[Speed]
+╠[Runtime]
+╠════════════●
+╠[Command Owner]
+╠════════════●
+╠[Salken Ya]
+╠[Bunuh「@」]
+╠[Kick「Mid」]
+╠[All join]
+╠[Bye all]
+╠[Kill ban]
+╠[Ban 「@」]
+╠[Unban「@」]
+╠[Ban 「Contact」]
+╠[Unban 「Contact」]
+╠[Banlist]
+╠[Clear ban]
+╠[Tes]
+╠[Clear]
+╠══[Finish]
 """
 oepoll = OEPoll(cl)
-KAC=[cl]
+KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
+Amid = ki.getProfile().mid
+Bmid = kk.getProfile().mid
+Cmid = kc.getProfile().mid
 
-Bots=[mid]
-admin=["u568d64c233c6c20b5024fc2e8c2114d8"]
+Bots=[mid,Amid,Bmid,Cmid]
+admin=["u78643d09e42a36836a17cc918963a8b7"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -86,15 +103,15 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':False,
-    'message':"Thanks for add me \n Creator line.me/ti/p/~mamanggd",
+    'message':"Thanks for add me \n Creator line.me/ti/p/~fuck.you__",
     "lang":"JP",
-    "comment":"Thanks for add me \n Creator line.me/ti/p/~mamanggd",
+    "comment":"Thanks for add me \n Creator line.me/ti/p/~fuck.you__",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
     "dblack":False,
     "clock":True,
-    "cName":"􀜁􀇔􏿿D͆̒̄ͧ́ͨ̀͠҉͈͓̳̞̬͓͈̖̲̰͚ ̡͉̜͓͓͉̖̺̌ͤ̅̈́̉͌ͅͅͅW̵̧̺̗̝ͥͧ̐ͨ͆͆ͯ͆͂̓ͣ̃ͣ͒ͬͬ̎ͮ͢ ̴̶̶̧̳̖̤͕͖͈̞͖͎͉̔̃̔͑ͧ̌̂ͫͬ̄͒̋̈́ͭ͐̽̆͘Ĩ̶̏͑ͤͯͦ̊̓̒́ͬͥ̽̀ͮ͑̓ͬ́҉̢̖̻̮͇̭͍",
+    "cName":"􀜁􀇔􏿿SLΔCҜβΩT",
     "blacklist":{},
     "whitelist":{},
     "wblacklist":False,
@@ -1169,7 +1186,7 @@ def bot(op):
                         cl.leaveGroup(msg.to)
                     except:
                         pass
-            elif msg.text in ["Dwi Bye"]:
+            elif msg.text in ["Galank Bye"]:
                if msg._from in admin:
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
