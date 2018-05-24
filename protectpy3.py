@@ -29,11 +29,11 @@ ki = LINE('EthJ7pjqLdrKYkTet0r7.ZCgQGGMRGrx9nKkkfuo+rW.ovlpjzEnTIMyYvMbpYF0f5S9k
 ki.log("Auth Token : " + str(cl.authToken))
 ki.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
-kk = LINE('YOUR_TOKEN')
+kk = LINE('Et6jzgIps0c1xltYrDHf.8/vGPiBoM/ZcB4S2oYc0tW./XvZRStm13urYqKxVXijmFcH1CV2L9Rxf2gXQVRFyfo=')
 kk.log("Auth Token : " + str(cl.authToken))
 kk.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
-kc = LINE('YOUR_TOKEN')
+kc = LINE('EtjwqV4WIG1TwjzpgB7b.qaw5y8Mf18Zg7MWUSHAtEW.K4GrsjKgmGuOcx88Z6bEspp4aUkg2f84sVx7OopvYTU=')
 kc.log("Auth Token : " + str(cl.authToken))
 kc.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
