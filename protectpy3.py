@@ -21,11 +21,11 @@ import requests,urllib,json
 #cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
 #Khusus Login Token
-cl = LINE('YOUR_TOKEN')
+cl = LINE('EtvPuOwNqzlMbTpPd6S6.Dv033ExVwtRzpkmQ3JkPDG.f3u03XjWN9ymhe1FDAXNDQ9fp86EZ2wbXOTpxZZWBcE=')
 cl.log("Auth Token : " + str(cl.authToken))
 cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
-ki = LINE('YOUR_TOKEN')
+ki = LINE('EthJ7pjqLdrKYkTet0r7.ZCgQGGMRGrx9nKkkfuo+rW.ovlpjzEnTIMyYvMbpYF0f5S9kGIUxrr3PniRyxKV/dw=')
 ki.log("Auth Token : " + str(cl.authToken))
 ki.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
