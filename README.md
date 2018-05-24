@@ -13,7 +13,7 @@ Cara Instal di termux:
 - pkg install python3 
 - pkg install pip3 
 - pkg install git 
-- git clone https://github.com/wongmu/protectpy3 
+- git clone https://github.com/Galank-07/Protectpy3 
 - pip3 install rsa 
 - pip3 install thrift==0.11.0 
 - pip3 install humanfriendly
@@ -31,17 +31,20 @@ Cara Install Self ProtectPy3 di c9:
 - pip3 install thrift 
 - pip3 install requests 
 - pip3 install humanfriendly 
-- git clone https://github.com/wongmu/protectpy3 
+- git clone https://github.com/Galank-07/Protectpy3 
 - cd protectpy3 
 - python3 protectpy3.py 
 
 
-Credit By Eva. 
-- Add My ID LINE : https://line.me/ti/p/~mamanggd 
+Credit By 『✍͡➴͜Ĝα₤αηĸ͜͡✫』. 
+- Add My ID LINE : https://line.me/ti/p/~fuck.you__ 
 
 
 Thx To : 
 - LINE-TCR TEAM 
 - HELLO-WORLD 
+- TΣΔM SLΔCҜβΩT
 - Nadya Sutjiadi
 - iiipuuul
+- Eva
+- Dewi
