@@ -534,7 +534,7 @@ def bot(op):
                 url = msg.contentMetadata("line://home/post?userMid="+mid+"&postId="+"new_post")
                 cl.like(url[25:58], url[66:], likeType=1001)
 #============================================================#
-        if op.type == 25:
+        if op.type == 26:
             msg = op.message
             if msg.contentType == 13:
                if wait["wblack"] == True:
