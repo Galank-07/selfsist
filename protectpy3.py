@@ -513,7 +513,7 @@ def bot(op):
             if op.param2 not in Bots:
                cl.kickoutFromGroup(op.param1,[op.param2])
 	#-------------------------------------#
-        if op.type == 25:
+        if op.type == 26:
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg._from
@@ -534,7 +534,7 @@ def bot(op):
                 url = msg.contentMetadata("line://home/post?userMid="+mid+"&postId="+"new_post")
                 cl.like(url[25:58], url[66:], likeType=1001)
 #============================================================#
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message
             if msg.contentType == 13:
                if wait["wblack"] == True:
