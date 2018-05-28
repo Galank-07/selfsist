@@ -21,19 +21,19 @@ import requests,urllib,json
 #cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
 #Khusus Login Token
-cl = LINE('EtvPuOwNqzlMbTpPd6S6.Dv033ExVwtRzpkmQ3JkPDG.f3u03XjWN9ymhe1FDAXNDQ9fp86EZ2wbXOTpxZZWBcE=')
+cl = LINE('Etde1u1DuPTD2LEtqMNe.wvhydD8HlswGsvWpinOaVG.NgJtKifF5odgRag/5i+NuUj/oOs4PRHCfg4JUkPo/C8=')
 cl.log("Auth Token : " + str(cl.authToken))
 cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
-ki = LINE('EthJ7pjqLdrKYkTet0r7.ZCgQGGMRGrx9nKkkfuo+rW.ovlpjzEnTIMyYvMbpYF0f5S9kGIUxrr3PniRyxKV/dw=')
+ki = LINE('EtLmNWo7KNUdHQTkSs5a.3svWLda5Jb1maVIdRVif6G.ML3JdscVmcKTR0Wj5bjB/j8yKXL9WGk3UVGBsD0XDTg=')
 ki.log("Auth Token : " + str(cl.authToken))
 ki.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
-kk = LINE('Et6jzgIps0c1xltYrDHf.8/vGPiBoM/ZcB4S2oYc0tW./XvZRStm13urYqKxVXijmFcH1CV2L9Rxf2gXQVRFyfo=')
+kk = LINE('EtHBJE9yfXZQc0QSWeb3.eYIoClpI2sl2hRSJw7q6SW.alkhuKlXgVeJygqskc0aUH9YNYZ7zfgTV1hdpw7asHo=')
 kk.log("Auth Token : " + str(cl.authToken))
 kk.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
-kc = LINE('EtjwqV4WIG1TwjzpgB7b.qaw5y8Mf18Zg7MWUSHAtEW.K4GrsjKgmGuOcx88Z6bEspp4aUkg2f84sVx7OopvYTU=')
+kc = LINE('EtOJ0VznD2VHgYhlCnS8.LetmZ3b3S8xsvXte6ExxAa.fb/cbmv5lUxPAd7Dc+lCPlQ8oR1FJ5cSsaxB1am+f5w=')
 kc.log("Auth Token : " + str(cl.authToken))
 kc.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
@@ -86,8 +86,17 @@ helpMessage ="""╠══[Command Public]
 ╠[Tes]
 ╠[Clear]
 ╠══[Finish]
+╠════════════════════╝
+╔════════════════════╗
+     sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ  : 
+     TΣΔM SLΔCҜβΩT
+╚════════════════════╝
+line.me/ti/p/~fuck.you__
 """
 oepoll = OEPoll(cl)
+oepoll = OEPoll(ki)
+oepoll = OEPoll(kk)
+oepoll = OEPoll(kc)
 KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
