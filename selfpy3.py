@@ -14,73 +14,131 @@ import requests
 import datetime
 import requests,urllib,json
 
-
-#Khusus Login Qr
-#cl = LINE()
-#cl.log("Auth Token : " + str(cl.authToken))
-#cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
+#GUNAKAN DENGAN BIJAK MHANK
+#HARGAI CREATOR
+#JIKA ERROR HUB: OWNER/ADMIN TΣΔM SLΔCҜβΩT
+#line.me/ti/p/~@ryp6149l
+#BELUM COBA MHANK,AKUN LIMITED CHAT
 
 #Khusus Login Token
-cl = LINE('EtZDJYegY2xy5L4QjV0e.wvhydD8HlswGsvWpinOaVG.tkUvi/7Gw6CRts5oSp5RA/kTfnfW5apeGt2z1nYBnqs=')
+cl = LINE('Tokenmu Sayang')
 cl.log("Auth Token : " + str(cl.authToken))
 cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
-ki = LINE('EtLmNWo7KNUdHQTkSs5a.3svWLda5Jb1maVIdRVif6G.ML3JdscVmcKTR0Wj5bjB/j8yKXL9WGk3UVGBsD0XDTg=')
-ki.log("Auth Token : " + str(cl.authToken))
-ki.log("Timeline Token : " + str(cl.tl.channelAccessToken))
+ki = LINE('Tokenmu Sayang')
+ki.log("Auth Token : " + str(ki.authToken))
+ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
 
-kk = LINE('EtHBJE9yfXZQc0QSWeb3.eYIoClpI2sl2hRSJw7q6SW.alkhuKlXgVeJygqskc0aUH9YNYZ7zfgTV1hdpw7asHo=')
-kk.log("Auth Token : " + str(cl.authToken))
-kk.log("Timeline Token : " + str(cl.tl.channelAccessToken))
+ki2 = LINE('Tokenmu Sayang')
+ki2.log("Auth Token : " + str(ki2.authToken))
+ki2.log("Timeline Token : " + str(ki2.tl.channelAccessToken))
 
-kc = LINE('EtOJ0VznD2VHgYhlCnS8.LetmZ3b3S8xsvXte6ExxAa.fb/cbmv5lUxPAd7Dc+lCPlQ8oR1FJ5cSsaxB1am+f5w=')
-kc.log("Auth Token : " + str(cl.authToken))
-kc.log("Timeline Token : " + str(cl.tl.channelAccessToken))
+ki3 = LINE('Tokenmu Sayang')
+ki3.log("Auth Token : " + str(ki3.authToken))
+ki3.log("Timeline Token : " + str(ki3.tl.channelAccessToken))
 
+ki4 = LINE('Tokenmu Sayang')
+ki4.log("Auth Token : " + str(ki4.authToken))
+ki4.log("Timeline Token : " + str(ki4.tl.channelAccessToken))
 
+ki5 = LINE('Tokenmu Sayang')
+ki5.log("Auth Token : " + str(ki5.authToken))
+ki5.log("Timeline Token : " + str(ki5.tl.channelAccessToken))
+
+ki6 = LINE('Tokenmu Sayang')
+ki6.log("Auth Token : " + str(ki6.authToken))
+ki6.log("Timeline Token : " + str(ki6.tl.channelAccessToken))
+
+ki7 = LINE('Tokenmu Sayang')
+ki7.log("Auth Token : " + str(ki7.authToken))
+ki7.log("Timeline Token : " + str(ki7.tl.channelAccessToken))
+
+ki8 = LINE('Tokenmu Sayang')
+ki8.log("Auth Token : " + str(ki8.authToken))
+ki8.log("Timeline Token : " + str(ki8.tl.channelAccessToken))
+
+ki9 = LINE('Tokenmu Sayang')
+ki9.log("Auth Token : " + str(ki9.authToken))
+ki9.log("Timeline Token : " + str(ki9.tl.channelAccessToken))
+
+ki10 = LINE('Tokenmu Sayang')
+ki10.log("Auth Token : " + str(ki10.authToken))
+ki10.log("Timeline Token : " + str(ki10.tl.channelAccessToken))
 
 startBot = time.time()
 elapsed_time = format_timespan(time.time()-startBot)
 
 
-helpMessage ="""
-↠Public Command↞
-√ [Bot]- -Show Contact All Bot                    
-√ [Group id]- -Show Group ID        
-√ [Ginfo]- -Show Group Info            
-√ [Mid all]- -Show all the Bot(s) MID
-√ [Respon]- -Check Response Bot
-√ [Speed]- -Check Kecepatan Bot   
-√ [Banlist]- -Check Banned Contact
-√ [Gn G.Name]- -Change Group Name
-√ [Cancel]- -Cancel Group Invitation
-√ [Tag All]- -Tag All Member 
-√ [View]- -View Setting
-√ [Open]-  -Open Url
-√ [Close]- -Close Url
-√ [Stafflist]
-√ [Set]    
-
-↠KICKER↞
-**Protect / Damage Your Group**
-√ [Banned @] Bann Target
-√ [Unban @]   Unbann Target
-√ [Kill @]   Kick Target Bann
-√ [Nk @]    Kick Target User
-√ [All]  Invite Semua Bot
-√ [Mayhem] Do not use in d'group
-「 Edited By 」
-http://line.me/ti/p/zuFNPuXyEb
+helpMessage ="""╔════════════════════╗
+     COMMAND SELF
+╚════════════════════╝
+╔════════════════════╗
+╠☪ Bot                   
+╠☪ Group id       
+╠☪ Ginfo            
+╠☪ Mid all
+╠☪ Respon
+╠☪ Speed
+╠☪ Banlist
+╠☪ Gn G.Name
+╠☪ Cancel
+╠☪ Tag All
+╠☪ Settings
+╠☪ Open
+╠☪ Close
+╠☪ Stafflist
+╠☪ Set
+╠════════════
+ COMMAND KICKER
+╠════════════
+╠☪ Banned @
+╠☪ Unban @
+╠☪ Kill @
+╠☪ Nk @
+╠☪ All
+╠☪ Mayhem
+╚════════════════════╝
+╔════════════════════╗
+      EDITED CREATOR
+      SLΔCҜβΩT
+    sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ :
+TΣΔM SLΔCҜβΩT
+      OWNER:
+ line.me/ti/p/~@ryp6149l
+╚════════════════════╝
 """
 
-Setgroup =""" **Bot Protection Key**
-√ [AllProtection]~[AllProtection on / off]
-√ [Protect QR]~[Qr on / off]
-√ [Mid Check]~[Contact On / Off]
-√ [Reject Invite]~[Guest On / Off]
-√ [Protect Cancel]~[Proc on / off]
-√ [Member Protect]~[MProtection on / off]
+Setgroup ="""╔════════════════════╗
+   COMMAND PROTECT
+╚════════════════════╝
+╔════════════════════╗
+╠☪ AllProtection on/off
+╠☪ Qr on/off
+╠☪ Contact on/Off
+╠☪ Guest on/Off
+╠☪ Proc on/off
+╠☪ MProtection on/off
+╚════════════════════╝
+╔════════════════════╗
+EDITED CREATOR
+      SLΔCҜβΩT
+    sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ :
+TΣΔM SLΔCҜβΩT
+      OWNER:
+ line.me/ti/p/~@ryp6149l
+╚════════════════════╝
 """
+oepoll = OEPoll(cl)
+oepoll = OEPoll(ki)
+oepoll = OEPoll(ki2)
+oepoll = OEPoll(ki3)
+oepoll = OEPoll(ki4)
+oepoll = OEPoll(ki5)
+oepoll = OEPoll(ki6)
+oepoll = OEPoll(ki7)
+oepoll = OEPoll(ki8)
+oepoll = OEPoll(ki9)
+oepoll = OEPoll(ki10)
 KAC=[cl,ki,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
@@ -93,11 +151,10 @@ Gmid = ki7.getProfile().mid
 Hmid = ki8.getProfile().mid
 Imid = ki9.getProfile().mid
 Jmid = ki10.getProfile().mid
-
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,"u9e5a757e7b6e466baf87e8f747d96eb5","ud4f80e5acbc5b7d325284692a9900941"]
-admin = ["u9e5a757e7b6e466baf87e8f747d96eb5","ud4f80e5acbc5b7d325284692a9900941"]
-staff = ["u9e5a757e7b6e466baf87e8f747d96eb5"]
-adminMID = "u9e5a757e7b6e466baf87e8f747d96eb5","ud4f80e5acbc5b7d325284692a9900941"
+admin = ["MIDMU SAYANG"]
+staff = ["MIDMU SAYANG"]
+adminMID = "MIDMU SAYANG"
 wait = {
     'contact':True,
     'autoJoin':True,
@@ -113,17 +170,17 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":"IP ディータ",
-    "cName2":"ディータ1つ " , 
-    "cName3":"ディータ二人 ",
-    "cName4":"ディータ三 ",
-    "cName5":"ディータ4人 ",
-    "cName6":"ディータ五 ",
-    "cName7":"ディータ6 ",
-    "cName8":"ディータ7人 ",
-    "cName9":"ディータ8人 ",
-    "cName10":"ディータ9人 ",
-    "cName11":"ディータ10人 ",
+    "cName":"IP SLACKBOT",
+    "cName2":"SLACKBOT1 " , 
+    "cName3":"SLACKBOT2 ",
+    "cName4":"SLACKBOT3 ",
+    "cName5":"SLACKBOT4 ",
+    "cName6":"SLACKBOT5 ",
+    "cName7":"SLACKBOT6 ",
+    "cName8":"SLACKBOT7 ",
+    "cName9":"SLACKBOT8 ",
+    "cName10":"SLACKBOT9 ",
+    "cName11":"SLACKBOT10 ",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":True,
@@ -1191,7 +1248,7 @@ def bot(op):
             elif msg.text in ["Creator"]:
                 if msg.toType == 2:
                     msg.contentType = 13
-                    Creatorbot = "u9e5a757e7b6e466baf87e8f747d96eb5"
+                    Creatorbot = "u78643d09e42a36836a17cc918963a8b7"
                     try:
                         msg.contentMetadata = {'mid': Creatorbot}
                         
@@ -1781,7 +1838,7 @@ def bot(op):
                             cl.sendText(msg.to,"done")
                         else:
                             cl.sendText(msg.to,"è¦äº†å…³æ–­ã€‚")
-            elif msg.text in ["View"]:
+            elif msg.text in ["Settings"]:
                 md = ""
                 if wait["MProtection"] == True: md+=" MProtection : on\n"
                 else: md+=" MProtection  : off\n"
