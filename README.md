@@ -1,25 +1,19 @@
-# Protect Self ProtectPy3
-Fungsinya? 
-Kelebihan : 
-1. Protect Group Line Pastinya 
-2. Command Bisa Dipakai oleh Orang Admin/Self 
-3. Bot Tidak Saling Kick Ketika Ada Yang Terkick 
-4. Jika Ingin lebih dari 1 bot bisa ditambahkan sendiri 
-
-- Kelemahan: 
-- BOT Tidak Aktif Ketika Bot Induk Tidak ada di Dalam Group 
+# Self 10 assist Py3
+# PYTHON2 UP PYTHON3
+#        UPDATE
+# 9,07,2018
 
 Cara Instal di termux: 
 - pkg install python3 
 - pkg install pip3 
 - pkg install git 
-- git clone https://github.com/Galank-07/Protectpy3 
+- git clone https://github.com/Galank-07/self10sist
 - pip3 install rsa 
 - pip3 install thrift==0.11.0 
 - pip3 install humanfriendly
 - pip3 install requests 
-- cd protectpy3
-- python3 protectpy3.py
+- cd self10sist
+- python3 selfpy3.py
 
 
 Cara Install Self ProtectPy3 di c9: 
@@ -31,20 +25,11 @@ Cara Install Self ProtectPy3 di c9:
 - pip3 install thrift 
 - pip3 install requests 
 - pip3 install humanfriendly 
-- git clone https://github.com/Galank-07/Protectpy3 
-- cd protectpy3 
-- python3 protectpy3.py 
+- git clone https://github.com/Galank-07/self10sist
+- cd self10sist 
+- python3 selfpy3.py 
 
 
 Credit By 『✍͡➴͜Ĝα₤αηĸ͜͡✫』. 
-- Add My ID LINE : https://line.me/ti/p/~fuck.you__ 
+- Add My ID LINE : http://line.me/ti/p/%40ryp6149l
 
-
-Thx To : 
-- LINE-TCR TEAM 
-- HELLO-WORLD 
-- TΣΔM SLΔCҜβΩT
-- Nadya Sutjiadi
-- iiipuuul
-- Eva
-- Dewi
