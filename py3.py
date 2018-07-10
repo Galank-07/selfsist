@@ -14,28 +14,19 @@ import requests
 import datetime
 import requests,urllib,json
 
+kr = LINE('')
+kr.log("Auth Token : " + str(kr.authToken))
+kr.log("Timeline Token : " + str(kr.tl.channelAccessToken))
 
-#Khusus Login Qr
-#cl = LINE()
-#cl.log("Auth Token : " + str(cl.authToken))
-#cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
-
-#Khusus Login Token
-cl = LINE('EtZDJYegY2xy5L4QjV0e.wvhydD8HlswGsvWpinOaVG.tkUvi/7Gw6CRts5oSp5RA/kTfnfW5apeGt2z1nYBnqs=')
-cl.log("Auth Token : " + str(cl.authToken))
-cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
-
-ki = LINE('EtLmNWo7KNUdHQTkSs5a.3svWLda5Jb1maVIdRVif6G.ML3JdscVmcKTR0Wj5bjB/j8yKXL9WGk3UVGBsD0XDTg=')
-ki.log("Auth Token : " + str(cl.authToken))
-ki.log("Timeline Token : " + str(cl.tl.channelAccessToken))
-
+kr1 = LINE('')
+kr1.log("Auth Token : " + str(kr1.authToken))
+k1.log("Timeline Token : " + str(kr1.tl.channelAccessToken))
 startBot = time.time()
 elapsed_time = format_timespan(time.time()-startBot)
 
 
 helpMessage ="""╔═════════════
-║ ✰ U.K_M O R A ✰
-╠═════════════
+║ TΣΔM SLΔCҜβΩT
 ╠═════════════
 ║╔════════════
 ║╠❂➣google (text)
@@ -69,9 +60,8 @@ helpMessage ="""╔═════════════
 ║╚════════════
 ╚═════════════"""
 
-keymsg ="""
-╔═════════════
-║ ✰ U.K_M O R A ✰
+keymsg ="""╔═════════════
+║COMMAND KEYSET
 ╠═════════════
 ╠═════════════
 ║╔════════════
@@ -90,10 +80,8 @@ keymsg ="""
 ║╚════════════
 ╚═════════════"""
 
-helppro ="""
-╔═════════════
-║ ✰ U.K_M O R A ✰
-╠═════════════
+helppro ="""╔═════════════
+║COMMAND PROTECT
 ╠═════════════
 ║╔════════════
 ║╠❂➣mode on/off
@@ -104,10 +92,8 @@ helppro ="""
 ║╚════════════
 ╚═════════════"""
 
-helpself ="""
-╔═════════════
-║ ✰ U.K_M O R A ✰
-╠═════════════
+helpself ="""╔═════════════
+║COMMAND SELFBOT
 ╠═════════════
 ║╔════════════
 ║╠❂➣Me
@@ -135,10 +121,8 @@ helpself ="""
 ║╚════════════
 ╚═════════════"""
 
-helpset ="""
-╔═════════════
-║ ✰ U.K_M O R A ✰
-╠═════════════
+helpset ="""╔═════════════
+║COMMAND SETTING
 ╠═════════════
 ║╔════════════
 ║╠❂➣contact on/off
@@ -157,10 +141,8 @@ helpset ="""
 ║╚════════════
 ╚═════════════"""
 
-helpgrup ="""
-╔═════════════
-║ ✰ U.K_M O R A ✰
-╠═════════════
+helpgrup ="""╔═════════════
+║COMMAND GROUP
 ╠═════════════
 ║╔════════════
 ║╠❂➣Link on
@@ -185,10 +167,8 @@ helpgrup ="""
 ║╚════════════
 ╚═════════════"""
 
-helptranslate ="""
-╔═════════════
-║ ✰ U.K_M O R A ✰
-╠═════════════
+helptranslate ="""╔═════════════
+║COMMAND TRANSLATE
 ╠═════════════
 ║╔════════════
 ║╠➣Id@en
@@ -206,16 +186,15 @@ helptranslate ="""
 ║╠➣Say-jp
 ║╚════════════
 ╚═════════════"""
-
+oepoll = OEPoll(kr)
+oepoll = OEPoll(kr1)
 KAC=[kr,kr1]
 mid = kr.getProfile().mid
 mid1 = kr1.getProfile().mid
-
-
 Bots=[mid,mid1]
 induk=[mid]
-owner=["udee46099e25e71f1fd1817cae9e7c429"]
-admin=["udee46099e25e71f1fd1817cae9e7c429",mid,mid1]
+owner=[""]
+admin=["",mid,mid1]
 
 wait = {
     'likeOn':False,
@@ -234,7 +213,7 @@ wait = {
     'autoAdd':True,
     'message':"""Thx for add""",
     "lang":"JP",
-    "comment":"👉ąµţ๏ℓɨЌ€ By F A M I L I ....U.K....CANDA TAWA«««",
+    "comment":"Auto Like By TΣΔM SLΔCҜβΩT : http://line.me/ti/p/%40ryp6149l",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
