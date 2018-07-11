@@ -21,13 +21,13 @@ import requests,urllib,json
 #cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
 #Khusus Login Token
-cl = LINE('EtZDJYegY2xy5L4QjV0e.wvhydD8HlswGsvWpinOaVG.tkUvi/7Gw6CRts5oSp5RA/kTfnfW5apeGt2z1nYBnqs=')
-cl.log("Auth Token : " + str(cl.authToken))
-cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
+nadya = LINE('Eu8Ce1uMHRfzR1zbrxJ7.Egq9cEqQnOnQf8YrIwoOTW.UkCXsSvyU3MIV8T6kiSvg8M9McWqLEKoB6T/r4vB29w=')
+nadya.log("Auth Token : " + str(nadya.authToken))
+nadya.log("Timeline Token : " + str(nadya.tl.channelAccessToken))
 
-ki = LINE('EtLmNWo7KNUdHQTkSs5a.3svWLda5Jb1maVIdRVif6G.ML3JdscVmcKTR0Wj5bjB/j8yKXL9WGk3UVGBsD0XDTg=')
-ki.log("Auth Token : " + str(cl.authToken))
-ki.log("Timeline Token : " + str(cl.tl.channelAccessToken))
+#ki = LINE('EtLmNWo7KNUdHQTkSs5a.3svWLda5Jb1maVIdRVif6G.ML3JdscVmcKTR0Wj5bjB/j8yKXL9WGk3UVGBsD0XDTg=')
+#ki.log("Auth Token : " + str(cl.authToken))
+#ki.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
 startBot = time.time()
 elapsed_time = format_timespan(time.time()-startBot)
@@ -249,12 +249,12 @@ line.me/ti/p/~fuck.you__
 line.me/ti/p/~Ardiy102
 """
 
-
+oepoll = OEPoll(nadya)
 KAC=[nadya]
 mid = nadya.getProfile().mid
 Bots=[mid]
-Creator=["u287d9a3b6bc29716d17c4f3e8ebab978"]
-admin=["u287d9a3b6bc29716d17c4f3e8ebab978"]
+Creator=["u78643d09e42a36836a17cc918963a8b7"]
+admin=["u78643d09e42a36836a17cc918963a8b7"]
 
 contact = nadya.getProfile()
 backup1 = nadya.getProfile()
