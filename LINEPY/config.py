@@ -28,7 +28,7 @@ class Config(object):
     }
 
     APP_TYPE    = ApplicationType._VALUES_TO_NAMES[368]
-    APP_VER     = '8.0.3'
+    APP_VER     = '1.4.17'
     CARRIER     = '51089, 1-0'
     SYSTEM_NAME = 'CHROMEOS'
     SYSTEM_VER  = '10.12.0'
